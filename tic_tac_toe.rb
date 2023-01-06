@@ -78,7 +78,6 @@ class Board
   attr_accessor :board
 
   def initialize
-    #@board = ['_', '_', '_', '_', '_', '_', '_', '_', '_']
     @board = Array.new(9, ' ')
     puts "When it is your turn, enter a number to place your piece on one of the available tiles. O's go first."
     puts ' 0 | 1 | 2 '
